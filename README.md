@@ -2,4 +2,4 @@
 
 Kate Broniste
 
-I am originally from Texas, I moved to Montana four years ago, and currently studying medical anthropology. 
+I am originally from Texas, I moved to Montana four years ago, and I am currently studying medical anthropology. 
