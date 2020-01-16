@@ -1,7 +1,7 @@
 1. The internet is a global network system of networks that is used to access the Web,
 a collaboration of information. 
 
-2. The internet works by a server connecting to another server using an 
+2. The internet works by using a server connected to another server using an 
 underground wire. Each computer has its own unique IP address such as 1.2.3.4.
 Our computers are considered clients that connect to the internet server provider (ISP). 
 Information provided on the internet is broken down into smaller packets, so it is easier
