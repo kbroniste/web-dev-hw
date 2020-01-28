@@ -1,0 +1,19 @@
+My Responses:
+
+1. The internet works by breaking information down into smaller packets of
+information being passed from one server to another to then pass the information
+on to the computer.
+
+2. IP address is the exact address or location of your computer. This is how
+information is able to be distinguished between computers and other locations.
+Thanks to IP addresses, information is able to be delivered to the correct
+computer. DNS translates IP addresses from numbers to words, making it easier to
+understand. DNS was originally created for government and educational use.
+
+3. A cookie is a small piece of information stored on the user's computer from
+the website.
+
+4. The three parts of an URL are:
+   1. Protocol
+   2. Domain Name
+   3. Path
