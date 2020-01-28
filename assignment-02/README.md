@@ -22,4 +22,4 @@ Three things I have learned include:
 
 [My Responses](./responses.txt)
 
-![Assignment 2 Screenshot](./Images/Week_Two_Screenshot.PNG)
+![Assignment 2 Screenshot](./Images/Week-Two-Screenshot.PNG)
