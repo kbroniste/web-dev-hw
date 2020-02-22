@@ -12,10 +12,17 @@
     <!--- Add Style of page--->
     <style>
       Body {background color: tan}
+      body {background-image:  url(images/background1.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-attachment: scroll;
+            background-size: cover;}
+      body {text-shadow: 1px 2px 2px pink}
       h1 {color: purple}
-      h2 {color: orange}
+      h2 {color: brown}
       h3 {color: purple}
-      table, th, td {border: 1px solid purple}
+      table, th, td {border: 1px dashed purple;
+                    padding: 5px}
       </style>
   </head>
 
@@ -25,15 +32,7 @@
       with quality food. We also offer cooking classes and share a few of our <br>
       recipes with our customers.</i></p>
       <hr/>
-
-    <h3>Where We Are and How to Contact us</h3>
-    <address>
-      <a href=mailto:kathryn.broniste@umconnect.umt.edu">Kate Broniste</a><br/>
-      The University of Montana<br/>
-      32 Campus Dr<br/>
-      Missoula, MT 59812<br>
-      123-456-7890
-      </address>
+<h2 align="center"><a href="#reservation">***<b><i><u>Now you can book your reservations online! Try booking Today!</b></i></u>***</a></h2>
 <h3>Hours of Operation </h3>
 <p><em>Time is run in military time as to avoid confusion on hours of operation</em></p>
 <table>
@@ -72,13 +71,16 @@
       <td>0900-2000</td>
     </tr>
  </table>
+
     <br><br>
+
     <!--- Allow for online reservations--->
-<h2 align="center">***<b><i><u>Now you can book your reservations online! Try booking Today!</b></i></u>***</h2>
-    <form action="" method="post">
+
+
+    <form action="https://kbroniste.github.io/web-dev-hw/Assignment-06/" method="post">
       <p>
       First name:
-    <input type="text" name="first name" maxlength="15" autofocus/>
+    <input type="text" id="reservation" name="first name" maxlength="15"/>
   </p>
   <p>Last Name:
     <input type="text" name="last name"/></p>
@@ -91,12 +93,16 @@
       <input type="radio" name="phone" value="work"/> Work
       <input type="text" name="ext" placeholder="ext. xxx"/>
   </p>
-  <p>Are you celebrating something?</p>
-    <input type="radio" name="question" value="yes"/> yes
+  <p> How many will be dining?
+      <input typer="text" name="# of People"/>
+      <br>
+      <!--- Attempt to link yes to holiday options (shows only if selected yes)--->
+  <p>Are you celebrating?</p>
+    <input type="radio" name="question-yes" value="yes"/> yes
     <br>
-    <input type="radio" name="question" value="no"/> no
+    <input type="radio" name="question-no" value="no"/> no
   <br>
-  <p> What are you celebrating?</p>
+  <p> If yes, what are you celebrating?</p>
   <input type="checkbox" name="celebrate" value="Holiday"/> Holiday
     <select name="Holiday">
       <option value="New Years">New Years</option>
@@ -140,14 +146,25 @@
           <option value="1900">1900</option>
           <option value="1930">1930</option>
         </select>
+
         <p>
             What is something you would like to see served:
             <br>
-
-            <textarea name="comments" id="test-textarea" placeholder="Enter your suggestions here..." cols="35" rows="10"></textarea>
+            <textarea name="comments" id="test-textarea" placeholder="Enter your suggestions here..." cols="50" rows="10"></textarea>
             <br><Br>
         </p>
-            <Input type="button" value="submit">
+            <Input type="button" value="Submit">
+            <input type="reset">
     </form>
+        <h3>Where We Are and How to Contact us</h3>
+        <address>
+          <a href=mailto:kathryn.broniste@umconnect.umt.edu">Kate Broniste</a><br/>
+          123-456-7890
+          The University of Montana<br/>
+          32 Campus Dr<br/>
+          Missoula, MT 59812<br>
+
+          </address>
+    <h2 align="center"><a href="#reservation">***<b><i><u>Now you can book your reservations online! Try booking Today!</b></i></u>***</a></h2>
   </body>
 </html>
