@@ -15,7 +15,7 @@
       h1 {color: purple}
       h2 {color: orange}
       h3 {color: purple}
-      table, td {border: 1px solid purple}
+      table, th, td {border: 1px solid purple}
       </style>
   </head>
 
@@ -24,6 +24,7 @@
     <p align="center"><i>Here at Kate's Kitchen we pride ourselves in providing our customers<br>
       with quality food. We also offer cooking classes and share a few of our <br>
       recipes with our customers.</i></p>
+      <hr/>
 
     <h3>Where We Are and How to Contact us</h3>
     <address>
@@ -36,6 +37,9 @@
 <h3>Hours of Operation </h3>
 <p><em>Time is run in military time as to avoid confusion on hours of operation</em></p>
 <table>
+  <tr>
+    <th scope="col">Days</th>
+    <th scope="col">Hours</th>
   <tr>
     <td>Monday</td>
     <td>0900-2000</td>
@@ -67,22 +71,83 @@
       <td>Sunday</td>
       <td>0900-2000</td>
     </tr>
-
  </table>
-    </body>
-<br><br>
-    <form action="" method="">
-      What is your first name:
-    <input type="text" name="first name">
-
     <br><br>
-
-    What is something you would like to see served:
+    <!--- Allow for online reservations--->
+<h2 align="center">***<b><i><u>Now you can book your reservations online! Try booking Today!</b></i></u>***</h2>
+    <form action="" method="post">
+      <p>
+      First name:
+    <input type="text" name="first name" maxlength="15" autofocus/>
+  </p>
+  <p>Last Name:
+    <input type="text" name="last name"/></p>
+    <p> Phone Number (xxx-xxx-xxxx):
+      <input type="text" name="phone number" maxlength="12" placeholder="xxx-xxx-xxxx"/><br>
+      <input type="radio" name="phone" value="home"/> Home
+      <br>
+      <input type="radio" name="phone" value="cell"/> Cell
+      <br>
+      <input type="radio" name="phone" value="work"/> Work
+      <input type="text" name="ext" placeholder="ext. xxx"/>
+  </p>
+  <p>Are you celebrating something?</p>
+    <input type="radio" name="question" value="yes"/> yes
     <br>
-    <textarea cols="35" rows="10"></textarea>
-    <br><Br>
+    <input type="radio" name="question" value="no"/> no
+  <br>
+  <p> What are you celebrating?</p>
+  <input type="checkbox" name="celebrate" value="Holiday"/> Holiday
+    <select name="Holiday">
+      <option value="New Years">New Years</option>
+      <option value="Valentines" selected>Valentines</option>
+      <option value="Memorial Day">Memorial Day</option>
+      <option value="4th of July">4th of July</option>
+      <option value="Veteran's Day">Veteran's Day</option>
+      <option value="Thanksgiving">Thanksgiving</option>
+      <option value="Christmas">Christmas</option>
+    </select>
+    <br>
+  <input type="checkbox" name="celebrate" value="Anniversary"/> Anniversary
+  <br>
+  <input type="checkbox" name="celebrate" value="Birthday"/> Birthday
+  <br>
+  <input type="checkbox" name="celebrate" value="Other"/> Other
+  <input typer="text" name="celebrate"/>
+    <br>
 
-    <Input type="button" value="submit">
+      <p>Date of Requested Reservation:</p>
+        <select name="Day of Week">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday" selected>Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+
+      <p>Afternoon Times: <em>Please note that reservation options are only available for the afternon (1500-1930).</em></p>
+        <select name="Time">
+          <option value="1500">1500</option>
+          <option value="1530">1530</option>
+          <option value="1600">1600</option>
+          <option value="1630">1630</option>
+          <option value="1700">1700</option>
+          <option value="1730">1730</option>
+          <option value="1800" selected>1800</option>
+          <option value="1830">1830</option>
+          <option value="1900">1900</option>
+          <option value="1930">1930</option>
+        </select>
+        <p>
+            What is something you would like to see served:
+            <br>
+
+            <textarea name="comments" id="test-textarea" placeholder="Enter your suggestions here..." cols="35" rows="10"></textarea>
+            <br><Br>
+        </p>
+            <Input type="button" value="submit">
     </form>
   </body>
 </html>
