@@ -10,16 +10,96 @@
 <title>About Us
   </title>
   <style>
+  body {background-image: url(./images/background1.jpg);
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: auto;}
+
+  table, th, td {border: 1px dashed brown;
+                padding: 5px}
+  .container {
+                background-color: lightgrey;
+                width: 600px;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid black;
+                text-align: center;}
     </style>
   </head>
 
   <body>
-    <nav>
+    <nav id="main" class="container" align="center">
       <a href="index.html">Home</a>
       <a href="content.html">Learn More</a>
       <a href="about.html">Contact Us</a>
     </nav>
-    
+    <br>
+    <br>
+<div id="hours" class="container">
+<h3> Hours of Operation</h3>
+  <tr>
+    <th scope="col">Days</th>
+    <th scope="col">Hours</th>
+  <tr>
+    <td>Monday</td>
+    <td>0900-1700</td>
+  </tr>
+
+    <tr>
+      <td>Tuesday</td>
+      <td>0900-1700</td>
+    </tr>
+
+    <tr>
+      <td>Wednesday</td>
+      <td>0900-1700</td>
+    </tr>
+
+    <tr>
+      <td>Thursday</td>
+      <td>0900-1700</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <Td>0900-1700</td>
+      </tr>
+     </table>
+   </div>
+<br>
+<br>
+<div id="suscribe" class="container">
+  <form action="https://example.com/crafting_subsription" method="post">
+    <p>
+    First name:
+  <input type="text" id="suscribe" name="first name" maxlength="15"/>
+</p>
+<p>Last Name:
+  <input type="text" id="suscribe" name="last name"/></p>
+  <p> Phone Number (xxx-xxx-xxxx):
+    <input type="text" name="phone number" maxlength="12" placeholder="xxx-xxx-xxxx"/><br>
+    <input type="radio" name="phone" value="home"/> Home
+    <br>
+    <input type="radio" name="phone" value="cell"/> Cell
+    <br>
+    <input type="radio" name="phone" value="work"/> Work
+    <input type="text" name="ext" placeholder="ext. xxx"/>
+</p>
+</div>
+<br>
+<br>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.167763266491!2d-113.98739678500229!3d46.860070847241246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc33f19815cb%3A0x9c296b8546ca9abf!2sUniversity%20of%20Montana!5e0!3m2!1sen!2sus!4v1583726228637!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<br>
+<br>
+<br>
+<div id="address" class="container">
+<address>
+  <a href=mailto:kathryn.broniste@umconnect.umt.edu">Kate Broniste</a><br/>
+  The University of Montana<br/>
+  32 Campus Dr<br>
+  Missoula, MT 59812
+</address>
+</div>
+
     </body>
     </html>
