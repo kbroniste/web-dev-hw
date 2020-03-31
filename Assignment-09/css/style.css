@@ -1,16 +1,11 @@
 Body {background-color: lightgrey;}
-h1, h4 {color: blue;
-        background-color: powderblue;
-        width: 600px;
-        margin: auto;
-        padding: 20px;
-        border: 4px solid hotpink;
-      }
-
-p  {color: blue;
-  background-color: powderblue;
-  width: 600px;
-  margin: auto;
-  padding: 20px;
-  border: 2px dashed blue;
-}
+* {font-family: serif;
+  text-align: center;}
+h1 {color: blue;
+    font-size: 40px }
+h2 {color: grey;
+    font-size: 30px}
+.Rocky {text-shadow: rgb(176, 176, 176);
+        color: black}
+.Mowgli {color: rgb(176, 176, 176);
+        text-shadow: rgb(64,64,64)}
