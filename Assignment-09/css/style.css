@@ -1,11 +1,19 @@
-Body {background-color: lightgrey;}
+Body {background-color:rgb(199, 146, 0);
+opacity: 1.0
+}
+/* opacity is from 0.0-1.0*/
 * {font-family: serif;
-  text-align: center;}
-h1 {color: blue;
-    font-size: 40px }
-h2 {color: grey;
-    font-size: 30px}
-.Rocky {text-shadow: rgb(176, 176, 176);
-        color: black}
-.Mowgli {color: rgb(176, 176, 176);
-        text-shadow: rgb(64,64,64)}
+  text-align: center;
+font-style: normal;}
+h1 {color: brown;
+    font-size: 40px;
+    font-weight: bolder;
+  font-style: oblique;
+  text-decoration: underline;}
+h2 {font-size: 30px;
+  font-weight: bold;
+font-style: italic;}
+.Rocky {text-shadow: 6px 6px 9px rgb(208, 214, 209);
+        color: rgb(0,0,0,)}
+.Mowgli {color: rgb(82, 87, 83);
+        text-shadow: 4px 4px 8px rgb(209, 227, 212)}
