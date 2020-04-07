@@ -1,0 +1,29 @@
+body {background-color: rgb(209, 173, 88);
+}
+/*line-height: 1.6
+font-family: Merriweather
+font-size: 16px;*/
+
+h1 {font-family: 'Merriweather', Georgia;
+  text-align: center;
+  font-size: 32pt;
+  color: #000;
+  margin: 0.2em;
+  font-weight: bolder;
+  font-kerning: auto;}
+
+h3 {font-family: 'Merriweather', Georgia;
+  text-align: center;
+  font-size: 20pt;
+  color: #000;
+  margin: 0.2em;
+  font-weight: bold;
+  font-kerning: auto;}
+
+p{font-family: 'Merriweather', Georgia;
+  text-align: left;
+  font-size: 14pt;
+  font-weight: normal;
+  color: #000;
+  margin: 0.2em;
+text-indent: -2.0em}
