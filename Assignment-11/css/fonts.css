@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+h1 {font-family: 'Cinzel Decorative', cursive;
+font-weight: bolder;
+font-style: normal;
+text-align:center;}
+
+h1::first-letter {font-size: 150%;}
+
+h2 {font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;}
+
+p {font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+  font-style:normal;
+  text-align: left;}
+
+  .header {font-family: 'Cinzel Decorative', cursive;
+            font-weight: bold;
+            font-style: normal;
+            text-align: right;}
