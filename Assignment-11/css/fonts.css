@@ -1,23 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@500&display=swap');
 
 h1 {font-family: 'Cinzel Decorative', cursive;
 font-weight: bolder;
 font-style: normal;
-text-align:center;}
+text-align:center;
+text-shadow: 3px 3px 5px #999;}
 
 h1::first-letter {font-size: 150%;}
 
-h2 {font-family: 'Cinzel Decorative', cursive;
+h3 {font-family: 'Cinzel Decorative', cursive;
     font-weight: bold;
     font-style: italic;
-    text-align: center;}
+    text-align: center;
+    text-shadow: 1px 1px 3px #999;}
 
-p {font-family: 'Cinzel Decorative', cursive;
+p {font-family: 'Dancing Script', cursive;
     font-weight: normal;
   font-style:normal;
-  text-align: left;}
+  text-align: left;
+  font-size: 16pt}
 
-  .header {font-family: 'Cinzel Decorative', cursive;
+  .navigation {font-family: 'Cinzel Decorative', cursive;
             font-weight: bold;
             font-style: normal;
-            text-align: right;}
+            text-align: center;
+            font-size: 14pt;}
+
+.main-about { font-family:'Dancing Script', cursive;
+          font-weight: normal;
+        text-align: left;
+        line-height: 2em;
+        font-size: 16pt;
+      }
+
+    .main-about h3 {text-align: left;
+      font-size: 18pt;
+      text-decoration: underline;
+        }
+        .main-about a {text-decoration: none;
+        color: #000;}
+        .main-about a:hover {margin-left: 2.5em;
+        color:#999;
+        text-decoration:underline;}
