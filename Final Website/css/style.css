@@ -1,0 +1,124 @@
+.navigation {  background-color: rgb(247,194,119);
+  width: 250px;
+  height: 100%;
+  position: fixed;
+   top: 0px;
+   left: 0px;}
+
+.navigation a {
+text-decoration: none;
+color: #000;}
+
+.navigation a:hover {
+text-decoration: underline;
+color: #999;}
+
+.site-info {
+  margin: 2em 2em 2em 2em;
+  text-align: center;
+  font-size: 18pt;
+}
+.logo {
+  background-color: rgb(133,125,105);
+  width: 150px
+  height: 150px
+  border: ;
+  border-radius: 350px;
+  border-style: dashed;
+  border-color: #000;
+  margin: auto;
+
+}
+.logo:hover {
+  border-color: #999;
+}
+.site-links {
+margin: 0 1em;
+text-align: center;
+}
+.site-links a{
+  display: block;
+  margin: 1em;
+}
+.site-links a:hover {
+  margin-left: 2.5em;
+  color: #999;
+}
+
+.dropdown .dropdown-btn {padding: 3px 4px 3px 8px;
+  background-color: rgb(247,194,119);
+  text decoration: none;
+  display: block;
+  border-style: none;
+  background: none;
+  width:100%;
+  text-align: center;
+  outline: inherit;
+}
+.dropdown-content {
+    display: none;
+    position:relative;
+    border: 3px dashed #000;
+    margin-left: 300px;
+    margin-top: auto;
+    color: #000;
+    background-color: rgb(247,194,119);
+    z-index: 1;
+    overflow: hidden;
+    float: right;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.2em;
+    min-width: 5em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #baf0ef;
+    background-color: #a2a2a2;
+}
+
+.title {
+  position:relative;
+  margin-left: 200px;
+  top:0px;
+  height:200px;
+  width:100%;
+  z-index: 2;
+
+}
+.title a{text-decoration: none;}
+
+.title a:hover {text-decoration: underline;}
+
+.img {
+  width: 600px;
+  height: auto;
+  opacity: 0.8;
+  z-index: 8;
+  top: 0;
+  right: 0;
+}
+
+.main {background-color: rgb(233,234,218);
+margin-left:  250px;
+margin-top: auto;
+padding: 1em;
+overflow: scroll;}
+
+
+.button {position:fixed;
+
+
+}
+
+.button:hover {
+
+}

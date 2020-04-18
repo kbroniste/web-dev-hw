@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Handlee&family=Indie+Flower&family=Special+Elite&display=swap');
+
+h1 {font-family: 'Great Vibes', cursive;
+font-weight: bolder;
+font-kerning: auto;
+font-style: normal;
+font-size: 28pt;
+color: #000;
+text-shadow: 3px 3px 6px rgb(255, 64, 0);
+text-align: center;
+text-decoration: underline;
+}
+.navigation {font-family: 'Great Vibes', cursive;
+font-weight: bolder;
+font-kerning: auto;
+font-style: normal;
+color: #000;
+font-size: 18pt;
+text-align: center;
+}
+.dropdown-btn {font-family: 'Great Vibes', cursive;
+font-weight: bolder;
+font-kerning: auto;
+font-style: normal;
+color: #000;
+font-size: 20pt;
+text-align: center;}
+
+.dropdown-content {font-family: 'Great Vibes', cursive;
+font-weight: bolder;
+font-kerning: auto;
+font-style: normal;
+color: #000;
+font-size: 12pt;
+text-align: center;}
+
+h2 {font-family: 'Indie Flower', cursive;
+font-weight:bold;
+font-kerning: auto;
+font-style: oblique;
+text-align: center;
+
+}
+
+.title h3 {font-family: 'Indie Flower', cursive;
+font-weight: normal;
+font-kerning: auto;
+font-style:italic;
+text-align: center;
+font-size: 18pt;
+color: rgb(255,64,0);
+text-decoration: none;}
+
+
+
+h3 {font-family: 'Indie Flower', cursive;
+font-weight: bold;
+font-kerning: auto;
+font-size: 18pt;
+  text-align: right;
+  text-decoration: underline;
+}
+.main {overflow: scroll;}
+p {font-family: 'Handlee', cursive;
+font-weight: normal;
+font-kerning: auto;
+font-style: normal;
+color: #000;
+text-align: right;
+}
