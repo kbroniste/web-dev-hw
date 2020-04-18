@@ -3,7 +3,8 @@
   height: 100%;
   position: fixed;
    top: 0px;
-   left: 0px;}
+   left: 0px;
+ z-index: 1;}
 
 .navigation a {
 text-decoration: none;
@@ -23,7 +24,7 @@ color: #999;}
   width: 150px
   height: 150px
   border: ;
-  border-radius: 350px;
+  border-radius: 200px;
   border-style: dashed;
   border-color: #000;
   margin: auto;
@@ -85,8 +86,10 @@ text-align: center;
     background-color: #a2a2a2;
 }
 
-.title {
-  position:relative;
+.title {background-image: url('../images/lily.png');
+background-repeat: no-repeat;
+opacity:0.8;
+background-size: auto;
   margin-left: 200px;
   top:0px;
   height:200px;
@@ -98,20 +101,11 @@ text-align: center;
 
 .title a:hover {text-decoration: underline;}
 
-.img {
-  width: 600px;
-  height: auto;
-  opacity: 0.8;
-  z-index: 8;
-  top: 0;
-  right: 0;
-}
-
 .main {background-color: rgb(233,234,218);
 margin-left:  250px;
 margin-top: auto;
 padding: 1em;
-overflow: scroll;}
+overflow:visible;}
 
 
 .button {position:fixed;
