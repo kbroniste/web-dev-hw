@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Caveat&family=Indie+Flower&family=Lobster+Two:ital@1&display=swap');
+
+body {
+
+}
+
+p { font-family: 'Baloo Paaji 2', cursive;
+}
+
+address {
+  font-family: 'Indie Flower', cursive;
+}
+
+.site-heading {
+
+}
+
+#site-links {
+  font-family: 'Indie Flower', cursive;
+
+}
+
+#site-title {
+font-family: 'Lobster Two', cursive;
+font-weight: normal;
+}
+
+#site-slogan {
+  font-family: 'Indie Flower', cursive;
+font-weight: bold
+}
+
+footer {
+  font-family: 'Caveat', cursive;
+
+}

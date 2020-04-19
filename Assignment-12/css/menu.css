@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Caveat&family=Indie+Flower&family=Lobster+Two:ital@1&display=swap');
+
 /* MENU BAR (CONTAINER) */
 menu {
   margin:0;
@@ -53,8 +55,7 @@ menu {
 
 #site-links .dropdown-content a {
   color:#000;
-  /*font-family:---*/
-}
+font-family: 'Baloo Paaji 2', cursive;}
 
 #site-links .dropdown-content a:hover{
   color: #FFF;

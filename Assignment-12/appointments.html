@@ -56,9 +56,89 @@
           </div> <!---end of site-heading div--->
     </header>
 
+    <div class="appointments">
+          <h3>Hours of Operation </h3>
+      <p><em>Time is run in military time as to avoid confusion on hours of operation</em></p>
+      <table>
+        <tr>
+          <th scope="col">Days</th>
+          <th scope="col">Hours</th>
+
+          <tr>
+            <td>Tuesday</td>
+            <td>0900-1700</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <td>0900-1700</td>
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+            <td>0900-1700</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <Td>0900-1700</td>
+            </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>0900-1700</td>
+          </tr>
+          </table>
+
+          <form action="https://example.com/appointment_booking" method="post">
+            <p>
+            First name:
+          <input type="text" id="appointment" name="first name" maxlength="15"/>
+        </p>
+        <p>Last Name:
+          <input type="text" name="last name"/></p>
+          <p> Phone Number (xxx-xxx-xxxx):
+            <input type="text" name="phone number" maxlength="12" placeholder="xxx-xxx-xxxx"/><br>
+            <input type="radio" name="phone" value="home"/> Home
+            <br>
+            <input type="radio" name="phone" value="cell"/> Cell
+            <br>
+            <input type="radio" name="phone" value="work"/> Work
+            <input type="text" name="ext" placeholder="ext. xxx"/>
+        </p>
+
+        <p>Date of Requested Appointment:</p>
+          <select name="Day of Week">
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday" selected>Saturday</option>
+
+          </select>
+
+          <p>Appointment Times:</p>
+            <select name="Time">
+              <option value="select time" selected>Select Time</option>
+              <option value="0900">0900</option>
+              <option value="1000">1000</option>
+              <option value="1100">1100</option>
+              <option value="1300">1300</option>
+              <option value="1400">1400</option>
+              <option value="1500">1500</option>
+              <option value="1600">1600</option>
+            </select>
+
+            <p>
+                What should we know about your pet? (ie breed, behavior, likes, dislikes, preferences)
+                                <br>
+                <textarea name="comments" id="test-textarea" placeholder="Enter details about your pet here...." cols="50" rows="10"></textarea>
+                <br><Br>
+            </p>
+                <Input type="button" value="Submit">
+                <input type="reset">
+        </form>
+    </div><!---end of appointments div--->
 
     <footer>
-      <!-- Copyright and other information: -->
       <p>(c) Kate Broniste, 2020</p>
     </footer>
    </body>
