@@ -90,7 +90,44 @@ footer {
 
 .main p:first-letter {
   margin-right: 1px;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 400;
-  color: rgb (56,2,2);
+  color: rgb(166,8,8);
+}
+.button {
+  width: 12em;
+  margin: auto;
+  padding: 0em .5em;
+  position: relative;
+
+  background-color: rgb(145,19,19);
+  border-color: rgb(138,48,48) Rgb(107,39,39) rgb(107,39,39)  rgb(138,48,48);
+  border-width: 10px 15px 15px 10px;
+  border-style: solid;
+
+  text-align: center;
+}
+
+.button:active {
+  background-color: rgb(97,7,7);
+  border-color: rgb(107,39,39) rgb(138,48,48) rgb(138,48,48) rgb(107,39,39);
+  border-width: 15px 10px 10px 15px;
+  border-style: solid;
+}
+.button h4 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(43,26,26);
+  text-decoration: none;
+}
+.button h4:hover {
+  text-decoration: underline overline;
+  text-decoration-color: rgb(43,26,26);
+  text-decoration-style: 5px dashed;
+}
+.button h4:active {
+  color: #000;
+  text-decoration: underline overline;
+  text-decoration-color: #000;
+  text-decoration-style: dashed;
 }
