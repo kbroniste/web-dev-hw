@@ -10,4 +10,4 @@
 
     Inline-block: keeps information in a horizontal line and also resembles blocks.
 
-3. For this assignemnt, I attempted to build a sketch. But, I found that my work flow went a little smoother without it. Seemed to take up more time to try and sketch it out vs building it, as the client gave me the basics they wanted for their site. 
+3. For this assignment, I attempted to build a sketch. But, I found that my work flow went a little smoother without it. Seemed to take up more time to try and sketch it out vs building it, as the client gave me the basics they wanted for their site. For this site, I used ideas from other pages that I have worked on and modified them to match the needs for the client.
