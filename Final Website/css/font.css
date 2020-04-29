@@ -60,7 +60,6 @@ font-size: 18pt;
   text-align: right;
   text-decoration: underline;
 }
-.main {overflow: scroll;}
 p {font-family: 'Handlee', cursive;
 font-weight: normal;
 font-kerning: auto;
@@ -68,3 +67,9 @@ font-style: normal;
 color: #000;
 text-align: right;
 }
+ol {font-family: 'Handlee', cursive;
+font-weight: bold;
+font-kerning: auto;
+font-style: italic;
+text-decoration: underline;
+text-align: justify;}

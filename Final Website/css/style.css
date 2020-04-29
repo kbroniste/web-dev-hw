@@ -1,7 +1,8 @@
-body {background-image: url('../images/');
+body {background-image: url('../images/header.jpg');
 background-repeat: repeat-x;
 background-attachment:fixed;
-background-color: rgb();}
+opacity: 0.94;
+background-color: rgb(250, 219, 195);}
 
 .main-container {
 width:40%;
@@ -9,38 +10,46 @@ width:40%;
   height:100%;
   margin: 3em auto;
   padding: 3em;
-  background-color: rgb(204,159,159);
-  border-left: 11px double rgb(69,51,51);
-  border-right: 11px double rgb(69,51,51);
-  border-bottom: 11px double rgb(69,51,51);
-  border-top: 11px double rgb(69,51,51);
+  background-color: rgb(255, 190, 140);
+  border-left: 11px double rgb(23, 10, 0);
+  border-right: 11px double rgb(23, 10, 0);
+  border-bottom: 11px double rgb(23, 10, 0);
+  border-top: 11px double rgb(23, 10, 0);
   opacity: 1;
 }
-header {margin-left: 25px;
+header {margin-left: -5px;
   top:0px;
   height: auto;
-  width: 500px;
+  width: 550px;
   z-index: 1;}
 
-
-.main {
-  text-align: justify;
-  margin: 3em 0;
+.site-heading {
+  width: 50%;
+  margin: 4em auto;
+  padding: 30px;
+  position: relative;
+  z-index: 3;
+  border: 5px double rgb(23,10,0);
 }
+
+.logo {
+  width:125px;
+  height:125px;
+  position: absolute;
+    top:15px;
+    left:100px;
+    z-index: 2;
+}
+
+.logo:hover {opacity:0.6;}
+
 
 .title a{text-decoration: none;}
 
 .title a:hover {text-decoration: underline;}
 
-.main {background-color: rgb(233,234,218);
-margin-left:  250px;
-margin-top: auto;
-padding: 1em;
-overflow:visible;}
 
-
-.button {position:fixed;
-
+.button {float: right;
 
 }
 

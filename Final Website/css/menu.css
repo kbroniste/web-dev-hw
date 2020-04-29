@@ -4,7 +4,7 @@
 menu {
   margin:0;
   padding:0;
-  background-color: rgb(209,71,71);
+  background-color: rgb(237, 136, 59);
 }
 
 /*TOP-LEVEL LINKS:*/
@@ -20,14 +20,14 @@ menu {
   padding: .5em 1.2em;
   display: inline-block;
 
-  background-color: rgb(209,71,71);
+  background-color: rgb(237, 136, 59);
 
   text-align: center;
   color: #000;
 }
 
 #site-links .menu-item:hover {
-  background-color: rgb(207,81,81);
+  background-color: rgb(247, 151, 77);
 
   color: rgb(43,26,26);
   text-decoration: overline underline;
@@ -43,13 +43,15 @@ menu {
 #site-links .dropdown {
   display:inline-block;
   width: 6em;
+  padding: .5em 1.2em;
+
 }
 
 #site-links .dropdown-content {
   display: none;
   position: absolute;
 
-  background-color: rgb(204,118,118);
+  background-color: rgb(230, 143, 76);
   z-index:5;
 }
 
@@ -70,13 +72,13 @@ font-family: 'Baloo Paaji 2', cursive;}
 
 #site-links .dropdown-item {
   min-width: 6em;
-  padding: .3em 1em;
+  padding: .5em 1.2em;
   display: block;
 
   text-align: center;
 }
 .dropdown-item:hover {
-  background-color: rgb(146,97,97) ;
+  background-color: rgb(230, 143, 76) ;
 color: rgb(237,136,136);
 display: block;
 }
